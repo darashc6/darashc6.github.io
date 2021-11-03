@@ -1,0 +1,36 @@
+.btn-background {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #46447A;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 3px rgb(0, 0, 0, 0.2);
+}
+
+.btn-background:hover {
+  cursor: pointer;
+  background-color: #423f70;
+}
+
+.icon {
+  font-size: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-twitter {
+  color: #1DA1F2;
+}
+
+.icon-github {
+  color: #333;
+}
+
+.icon-linkedin {
+  color: #0077B5;
+}

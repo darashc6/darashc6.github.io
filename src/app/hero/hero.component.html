@@ -1,0 +1,26 @@
+<div class="background hero-container">
+  <div class="hero-gif">
+    <img src="../../assets/hero_gif.gif" width="500" height="500" alt="" />
+  </div>
+  <div class="hero-content">
+    <div class="hero-details">
+      <div class="hero-name">
+        <h2>
+          Darash <br />
+          Chablani
+        </h2>
+      </div>
+      <div class="hero-description">
+        <p>Front End Web Dveloper</p>
+        <p>App Developer</p>
+      </div>
+    </div>
+    <div class="hero-social-media-btns">
+      <div *ngFor="let socialMediaLink of socialMediaLinks">
+        <app-btn-social-media
+          [socialMediaLink]="socialMediaLink"
+        ></app-btn-social-media>
+      </div>
+    </div>
+  </div>
+</div>
