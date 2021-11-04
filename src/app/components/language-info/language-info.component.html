@@ -1,0 +1,4 @@
+<div class="language-info-container" *ngIf="languageInfo">
+    <ic-icon class="language-info-icon" [ngClass]="applyCustomStyles()" [icon]="languageInfo.icon"></ic-icon>
+    <p class="language-info-name">{{ languageInfo.name }}</p>
+</div>

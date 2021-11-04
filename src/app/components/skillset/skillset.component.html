@@ -1,0 +1,13 @@
+<div class="background">
+  <app-section-introduction
+    [sectionTitle]="'Skillset'"
+    [sectionDescription]="
+      'Enim parturient id elementum quis urna nunc, ante pretium orci, maecenas congue pellentesque at non congue pellentesque viverra sit lacinia et montes'
+    "
+  ></app-section-introduction>
+  <div class="skillset-info-container">
+    <div *ngFor="let skillsetInfo of skillset">
+      <app-skillset-info [skillsetInfo]="skillsetInfo" ></app-skillset-info>
+    </div>
+  </div>
+</div>

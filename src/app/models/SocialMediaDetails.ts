@@ -1,7 +1,7 @@
-import { IconDefinition } from "@fortawesome/fontawesome-common-types";
+// import { IconifyIcon } from '@visurel/iconify-angular';
 
 export interface SocialMediaDetails {
     id: string;
     urlLink: string;
-    icon: IconDefinition;
+    icon: string;
 }

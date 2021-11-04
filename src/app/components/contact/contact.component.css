@@ -1,0 +1,20 @@
+.background {
+  background-color: #2B2A41;
+  height: 50vh;
+}
+
+.contact-social-media-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 25vw;
+}
+
+.contact-social-media-btns-container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

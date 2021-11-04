@@ -1,0 +1,14 @@
+.section-introduction-container {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+.section-introduction-title {
+  font-size: 45px;
+}
+
+.section-introduction-description {
+  font-size: 22px;
+  padding: 1vw 8vw;
+}

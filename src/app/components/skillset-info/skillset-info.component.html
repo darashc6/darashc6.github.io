@@ -1,0 +1,11 @@
+<div *ngIf="skillsetInfo" class="background">
+  <ic-icon [icon]="skillsetInfo.icon" class="icon"></ic-icon>
+  <div class="skillset-info-title">{{ skillsetInfo.title }}</div>
+  <div class="skillset-info-description">{{ skillsetInfo.description }}</div>
+  <div class="skillset-info-languages">
+    <app-language-info
+      *ngFor="let languageInfo of skillsetInfo.languages"
+      [languageInfo]="languageInfo"
+    ></app-language-info>
+  </div>
+</div>

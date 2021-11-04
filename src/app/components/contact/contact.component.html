@@ -1,0 +1,17 @@
+<div class="background">
+  <app-section-introduction
+    [sectionTitle]="'Contact'"
+    [sectionDescription]="
+      'Enim parturient id elementum quis urna nunc, ante pretium orci, maecenas congue pellentesque at non congue pellentesque viverra sit lacinia et montes'
+    "
+  ></app-section-introduction>
+  <div class="contact-social-media-btns-container">
+    <div class="contact-social-media-btns">
+      <div *ngFor="let socialMediaLink of socialMediaLinks">
+        <app-btn-social-media
+          [socialMediaLink]="socialMediaLink"
+        ></app-btn-social-media>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faTwitter, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { IconDefinition } from '@fortawesome/fontawesome-common-types';
-import { SocialMediaDetails } from '../models/SocialMediaDetails';
+import { SocialMediaDetails } from '../../models/SocialMediaDetails';
 
 @Component({
   selector: 'app-hero',
@@ -13,17 +11,17 @@ export class HeroComponent implements OnInit {
     {
       'id': 'twitter',
       'urlLink': 'https://twitter.com/darashc6',
-      'icon': faTwitter,
+      'icon': 'icon_twitter',
     },
     {
       'id': 'github',
       'urlLink': 'https://github.com/darashc6/',
-      'icon': faGithub,
+      'icon': 'icon_github',
     },
     {
-      'id': 'twitter',
+      'id': 'linkedin',
       'urlLink': 'https://www.linkedin.com/in/darash-chablani-desarrollador-multiplataforma/',
-      'icon': faLinkedin,
+      'icon': 'icon_linkedin',
     },
   ];
 
