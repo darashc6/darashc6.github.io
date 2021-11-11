@@ -1,8 +1,21 @@
-<div class="background">
+<section class="projects-container">
   <app-section-introduction
-    [sectionTitle]="'My Projects'"
+    [sectionTitle]="'Some of my projects'"
     [sectionDescription]="
       'Enim parturient id elementum quis urna nunc, ante pretium orci, maecenas congue pellentesque at non congue pellentesque viverra sit lacinia et montes'
     "
   ></app-section-introduction>
-</div>
+  <div class="list-projects">
+    <app-project-info
+      *ngFor="let project of projectsList"
+      [project]="project"
+    ></app-project-info>
+  </div>
+  <div class="projects-more-info" (click)="openGithubProfile()">
+    <span class="projects-more-info-text">Check out my other projects on</span>
+    <div class="btn-github">
+      <ic-icon [icon]="'icon_github'" class="icon-github"></ic-icon>
+      <p class="icon-github-title">GitHub</p>
+    </div>
+  </div>
+</section>

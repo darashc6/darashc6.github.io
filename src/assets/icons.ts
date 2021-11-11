@@ -1,5 +1,5 @@
 import twitter from "@iconify/icons-logos/twitter";
-import github from "@iconify/icons-logos/github-icon";
+import github from "@iconify/icons-mdi/github";
 import linkedin from "@iconify/icons-logos/linkedin-icon";
 import webdevelopment from "@iconify/icons-vscode-icons/file-type-htmlhint";
 import android from "@iconify/icons-vscode-icons/folder-type-android";
@@ -12,6 +12,8 @@ import androidstudio from "@iconify/icons-mdi/android-studio";
 import java from "@iconify/icons-logos/java";
 import kotlin from "@iconify/icons-vscode-icons/file-type-kotlin";
 import flutter from "@iconify/icons-vscode-icons/file-type-flutter";
+import mongodb from "@iconify/icons-vscode-icons/file-type-mongo";
+import firebase from "@iconify/icons-vscode-icons/file-type-firebase";
 
 export const appIcons = {
     'icon_twitter': twitter,
@@ -28,4 +30,6 @@ export const appIcons = {
     'icon_java': java,
     'icon_kotlin': kotlin,
     'icon_flutter': flutter,
+    'icon_mongodb': mongodb,
+    'icon_firebase': firebase,
 }

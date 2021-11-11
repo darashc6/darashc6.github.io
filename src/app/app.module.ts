@@ -11,6 +11,7 @@ import { IconModule } from '@visurel/iconify-angular';
 import { SectionIntroductionComponent } from './components/section-introduction/section-introduction.component';
 import { SkillsetInfoComponent } from './components/skillset-info/skillset-info.component';
 import { LanguageInfoComponent } from './components/language-info/language-info.component';
+import { ProjectInfoComponent } from './components/project-info/project-info.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { LanguageInfoComponent } from './components/language-info/language-info.
     SectionIntroductionComponent,
     SkillsetInfoComponent,
     LanguageInfoComponent,
+    ProjectInfoComponent,
   ],
   imports: [BrowserModule, IconModule],
   providers: [],

@@ -18,4 +18,10 @@ export class BtnSocialMediaComponent implements OnInit {
     window.open(this.socialMediaLink?.urlLink, "_blank");
   }
 
+  applyCustomStyles() {
+    return {
+      'icon-github': this.socialMediaLink?.id === 'github',
+    }
+  }
+
 }

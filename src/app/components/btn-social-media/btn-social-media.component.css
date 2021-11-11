@@ -17,6 +17,10 @@
 
 .icon {
   font-size: 25px;
+  display: flex;
+}
 
+.icon-github {
+  font-size: 32px;
   display: flex;
 }

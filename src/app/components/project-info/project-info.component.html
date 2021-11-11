@@ -1,0 +1,22 @@
+<div *ngIf="project" class="project-info-container" (click)="visitLink()">
+  <div class="project-info-data">
+    <div class="project-info-title">{{ project.name }}</div>
+    <div class="project-info-description">
+      {{ project.description }}
+    </div>
+    <div class="project-info-languages">
+      <app-language-info
+      *ngFor="let languageInfo of project.languages"
+      [languageInfo]="languageInfo"
+    ></app-language-info>
+    </div>
+  </div>
+  <img
+    class="project-info-demo"
+    src="{{ project.img_src }}"
+    width="{{ project.img_width }}"
+    height="{{ project.img_height }}"
+    alt=""
+    srcset=""
+  />
+</div>

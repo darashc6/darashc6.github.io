@@ -1,7 +1,7 @@
 .background {
   background-color: #323152;
-  width: 70vh;
-  padding: 35px;
+  margin: 0 40px 45px 40px;
+  padding: 25px 60px;
   border-radius: 20px;
   color: white;
 
@@ -25,7 +25,9 @@
 
 .skillset-info-description {
   padding: 0.7rem 0;
+  font-weight: 300;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 .skillset-info-languages {

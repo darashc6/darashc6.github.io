@@ -16,12 +16,12 @@ export class SkillsetComponent implements OnInit {
       'languages': [
         {
           'id': 'html',
-          'name': 'HTML5',
+          'name': 'HTML',
           'icon': 'icon_html5'
         },
         {
           'id': 'css',
-          'name': 'CSS3',
+          'name': 'CSS',
           'icon': 'icon_css3'
         },
         {
