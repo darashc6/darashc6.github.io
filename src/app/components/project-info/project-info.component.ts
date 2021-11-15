@@ -18,4 +18,8 @@ export class ProjectInfoComponent implements OnInit {
     window.open(this.project?.website_link || this.project?.github_link);
   }
 
+  setWidth() {
+    return this.project?.img_mode == "laptop" ? 300 : 100
+  }
+
 }

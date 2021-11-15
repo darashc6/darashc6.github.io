@@ -11,9 +11,8 @@ export class ProjectsComponent implements OnInit {
     {
       name: "MealVity",
       description: "Food delivery & reservation app, inspired from Just Eat/Uber Eats. Final year project for my App Development Course.",
-      img_src: "../../../assets/mealvity_demo.png",
-      img_height: 200,
-      img_width: 100,
+      img_src: "../../../assets/mealvity_demo_webp.webp",
+      img_mode: "phone",
       github_link: "https://github.com/darashc6/Mealvity",
       languages: [
         {
@@ -36,9 +35,8 @@ export class ProjectsComponent implements OnInit {
     {
       name: "Cosmos Offer Club",
       description: "Website for obtaining coupons and promo codes Amazon has to offer. Participant in the Amazon-Services LLC Associates Program.",
-      img_src: "../../../assets/cosmos_demo.png",
-      img_height: 200,
-      img_width: 300,
+      img_src: "../../../assets/cosmos_demo_webp.webp",
+      img_mode: "laptop",
       github_link: "https://www.cosmosofferclub.com",
       languages: [
         {
@@ -61,9 +59,8 @@ export class ProjectsComponent implements OnInit {
     {
       name: "Mi Conjunto",
       description: "Management system for residential complexes. Two different versions, one for the resident, and the other for the security guard.",
-      img_src: "../../../assets/mealvity_demo.png",
-      img_height: 200,
-      img_width: 100,
+      img_src: "../../../assets/miconjunto_demo_webp.webp",
+      img_mode: "phone",
       github_link: "https://www.cosmosofferclub.com",
       languages: [
         {
