@@ -1,8 +1,7 @@
 <section class="background hero-container">
-  <video #hero_gif width="500" height="500" autoplay loop>
-    <source src="../../../assets/hero_gif_webm.webm" type="video/webm" />
-    <source src="../../../assets/hero_gif_mp4.mp4" type="video/mp4" />
-  </video>
+  <div class="hero-gif">
+    <img src="../../../assets/hero_gif.gif" />
+  </div>
   <div class="hero-content">
     <div class="hero-details">
       <div class="hero-name">
@@ -12,16 +11,10 @@
         </h2>
       </div>
       <div class="hero-description">
-        <p>Front End Web Dveloper</p>
+        <p>Front End Web Developer</p>
         <p>App Developer</p>
       </div>
     </div>
-    <div class="hero-social-media-btns">
-      <div *ngFor="let socialMediaLink of socialMediaLinks">
-        <app-btn-social-media
-          [socialMediaLink]="socialMediaLink"
-        ></app-btn-social-media>
-      </div>
-    </div>
+    <div class="get-in-touch-btn" (click)="goToContactSection()">GET IN TOUCH</div>
   </div>
 </section>

@@ -1,13 +1,13 @@
-<div class="background">
+<div id="skillset-section" class="background">
   <app-section-introduction
     [sectionTitle]="'Skillset'"
     [sectionDescription]="
-      'Enim parturient id elementum quis urna nunc, ante pretium orci, maecenas congue pellentesque at non congue pellentesque viverra sit lacinia et montes'
+      'In a field where change is constant, I consider it very important to learn and keep up with the latest technologies in roder to to pick the best for each use.'
     "
   ></app-section-introduction>
   <div class="skillset-info-container">
     <div *ngFor="let skillsetInfo of skillset">
-      <app-skillset-info [skillsetInfo]="skillsetInfo" ></app-skillset-info>
+      <app-skillset-info [skillsetInfo]="skillsetInfo"></app-skillset-info>
     </div>
   </div>
 </div>

@@ -1,9 +1,11 @@
 .background {
-  background-color: #2B2A41;
+  background-color: var(--darker-blue);
+  padding: 35px 0;
 }
 
 .skillset-info-container {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-

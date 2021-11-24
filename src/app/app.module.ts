@@ -12,6 +12,7 @@ import { SectionIntroductionComponent } from './components/section-introduction/
 import { SkillsetInfoComponent } from './components/skillset-info/skillset-info.component';
 import { LanguageInfoComponent } from './components/language-info/language-info.component';
 import { ProjectInfoComponent } from './components/project-info/project-info.component';
+import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProjectInfoComponent } from './components/project-info/project-info.com
     SkillsetInfoComponent,
     LanguageInfoComponent,
     ProjectInfoComponent,
+    NavigationBarComponent,
   ],
   imports: [BrowserModule, IconModule],
   providers: [],

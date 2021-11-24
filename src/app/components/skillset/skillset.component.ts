@@ -11,19 +11,9 @@ export class SkillsetComponent implements OnInit {
     {
       'id': 'web_development',
       'title': 'Web Development',
-      'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna',
+      'description': 'I spend the majority of my time working on web technologies, especially with Angular. Code quality and best practices are huge priorities.',
       'icon': 'icon_web_development',
       'languages': [
-        {
-          'id': 'html',
-          'name': 'HTML',
-          'icon': 'icon_html5'
-        },
-        {
-          'id': 'css',
-          'name': 'CSS',
-          'icon': 'icon_css3'
-        },
         {
           'id': 'react',
           'name': 'React',
@@ -44,14 +34,9 @@ export class SkillsetComponent implements OnInit {
     {
       'id': 'android_development',
       'title': 'Android',
-      'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna',
+      'description': 'I\'ve also gained experience building Android applications, both natively with Java/Kotlin, and with cross platform languages such as Flutter. ',
       'icon': 'icon_android',
       'languages': [
-        {
-          'id': 'android_studio',
-          'name': 'A.Studio',
-          'icon': 'icon_android_studio'
-        },
         {
           'id': 'java',
           'name': 'Java',

@@ -1,7 +1,7 @@
 .section-introduction-container {
   text-align: center;
-  padding: 2rem;
   color: white;
+  margin-bottom: 20px;
 }
 
 .section-introduction-title {
@@ -10,5 +10,29 @@
 
 .section-introduction-description {
   font-size: 22px;
-  padding: 1vw 8vw;
+  padding: 0.5rem 4rem 0 4rem;
+}
+
+@media (max-width: 900px) {
+  .section-introduction-title {
+    font-size: 35px;
+  }
+
+  .section-introduction-description {
+    font-size: 18px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-introduction-title {
+    font-size: 28px
+  }
+
+  .section-introduction-description {
+    font-size: 15px;
+    padding-right: 1rem;
+    padding-left: 1rem
+  }
 }

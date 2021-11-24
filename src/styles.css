@@ -16,6 +16,16 @@
   font-weight: 700;
 }
 
+:root {
+  --dark-blue: #323152;
+  --darker-blue: #2B2A41;
+  --light-blue: #46447A;
+  --light-blue-hover: #423f70;
+  --color-android-studio: #1bd478;
+  --white-hover: rgb(224, 224, 224);
+  --btn-shadow: rgba(0, 0, 0, 0.2);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

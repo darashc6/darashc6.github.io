@@ -30,4 +30,10 @@ export class HeroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToContactSection() {
+    document.getElementById('contact-section')?.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
 }

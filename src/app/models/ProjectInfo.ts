@@ -3,9 +3,8 @@ import { LanguageInfo } from "./LanguageInfo";
 export interface ProjectInfo {
     name: string,
     description: string,
-    img_src: string,
+    images: string[],
     img_mode: string,
-    github_link?: string,
-    website_link?: string,
+    project_link?: string,
     languages: LanguageInfo[]
 }

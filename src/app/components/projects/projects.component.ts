@@ -10,10 +10,13 @@ export class ProjectsComponent implements OnInit {
   projectsList: ProjectInfo[] = [
     {
       name: "MealVity",
-      description: "Food delivery & reservation app, inspired from Just Eat/Uber Eats. Final year project for my App Development Course.",
-      img_src: "../../../assets/mealvity_demo_webp.webp",
+      description: "Food delivery & reservation app, inspired from Just Eat/Uber Eats. Final year project for my App Development Degree.",
+      images: [
+        "../../../assets/mealvity_demo1_webp.webp",
+        "../../../assets/mealvity_demo2_webp.webp",
+      ],
       img_mode: "phone",
-      github_link: "https://github.com/darashc6/Mealvity",
+      project_link: "https://github.com/darashc6/Mealvity",
       languages: [
         {
           id: 'android_studio',
@@ -35,9 +38,11 @@ export class ProjectsComponent implements OnInit {
     {
       name: "Cosmos Offer Club",
       description: "Website for obtaining coupons and promo codes Amazon has to offer. Participant in the Amazon-Services LLC Associates Program.",
-      img_src: "../../../assets/cosmos_demo_webp.webp",
+      images: [
+        "../../../assets/example.webp"
+      ],
       img_mode: "laptop",
-      github_link: "https://www.cosmosofferclub.com",
+      project_link: "https://www.cosmosofferclub.com",
       languages: [
         {
           id: 'react',
@@ -59,9 +64,12 @@ export class ProjectsComponent implements OnInit {
     {
       name: "Mi Conjunto",
       description: "Management system for residential complexes. Two different versions, one for the resident, and the other for the security guard.",
-      img_src: "../../../assets/miconjunto_demo_webp.webp",
+      images: [
+        "../../../assets/miconjunto_demo1_webp.webp",
+        "../../../assets/miconjunto_demo2_webp.webp",
+      ],
       img_mode: "phone",
-      github_link: "https://www.cosmosofferclub.com",
+      project_link: "https://github.com/darashc6/MiConjunto-public",
       languages: [
         {
           id: 'flutter',

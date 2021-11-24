@@ -1,7 +1,9 @@
-.background {
-  background-color: #323152;
-  margin: 0 40px 45px 40px;
-  padding: 25px 60px;
+.skillset-info-container {
+  background-color: var(--dark-blue);
+  height: 400px;
+  width: 550px;
+  margin: 15px 0;
+  padding: 25px 40px;
   border-radius: 20px;
   color: white;
 
@@ -32,7 +34,32 @@
 
 .skillset-info-languages {
   margin-top: 5px;
-  display: flex;
   width: 100%;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .skillset-info-container {
+    width: 430px;
+  }
+}
+
+@media (max-width: 900px) {
+  .skillset-info-container {
+    width: 90%;
+    margin: 15px auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .skillset-info-title {
+    font-size: 18px;
+  }
+
+  .skillset-info-description {
+    font-size: 14px;
+  }
 }

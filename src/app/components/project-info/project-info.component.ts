@@ -15,7 +15,7 @@ export class ProjectInfoComponent implements OnInit {
   }
 
   visitLink(): void {
-    window.open(this.project?.website_link || this.project?.github_link);
+    window.open(this.project?.project_link);
   }
 
   setWidth() {

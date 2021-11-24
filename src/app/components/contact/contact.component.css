@@ -1,14 +1,10 @@
 .background {
-  background-color: #2B2A41;
-  height: 50vh;
+  background-color: var(--darker-blue);
+  padding: 35px 0;
 }
 
-.contact-social-media-btns {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  width: 25vw;
+.contact-social-media-btn {
+  margin: 0 20px;
 }
 
 .contact-social-media-btns-container {

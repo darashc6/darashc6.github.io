@@ -1,11 +1,12 @@
-<div
+<a
   *ngIf="socialMediaLink"
   class="btn-background"
-  (click)="openSocialMediaLink()"
+  href="{{ socialMediaLink.urlLink }}"
+  target="_blank"
 >
   <ic-icon
     class="icon"
     [ngClass]="applyCustomStyles()"
     [icon]="socialMediaLink.icon"
   ></ic-icon>
-</div>
+</a>

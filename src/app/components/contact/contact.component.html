@@ -1,17 +1,18 @@
-<section class="background">
+<section id="contact-section" class="background">
   <app-section-introduction
     [sectionTitle]="'Contact'"
     [sectionDescription]="
-      'Enim parturient id elementum quis urna nunc, ante pretium orci, maecenas congue pellentesque at non congue pellentesque viverra sit lacinia et montes'
+      'Do you have an interesting project that you want me to build? Would you like to get in touch with me? Feel free to contact me through any of these social media platforms.'
     "
   ></app-section-introduction>
   <div class="contact-social-media-btns-container">
-    <div class="contact-social-media-btns">
-      <div *ngFor="let socialMediaLink of socialMediaLinks">
-        <app-btn-social-media
-          [socialMediaLink]="socialMediaLink"
-        ></app-btn-social-media>
-      </div>
+    <div
+      class="contact-social-media-btn"
+      *ngFor="let socialMediaLink of socialMediaLinks"
+    >
+      <app-btn-social-media
+        [socialMediaLink]="socialMediaLink"
+      ></app-btn-social-media>
     </div>
   </div>
 </section>

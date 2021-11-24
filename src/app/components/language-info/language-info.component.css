@@ -1,5 +1,5 @@
 .language-info-container {
-  background-color: #46447A;
+  background-color: var(--light-blue);
   padding: 5px 10px;
   margin: 10px 5px 0 5px;
   width: 120px;
@@ -23,5 +23,20 @@
 }
 
 .icon-android-studio {
-  color: #1bd478;
+  color: var(--color-android-studio);
+}
+
+@media (max-width: 600px) {
+  .language-info-container {
+    width: 100px;
+  }
+
+  .language-info-name {
+    font-size: 10.5px;
+    height: 10px;
+  }
+
+  .language-info-icon {
+    font-size: 16px;
+  }
 }

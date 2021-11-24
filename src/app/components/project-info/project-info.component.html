@@ -1,4 +1,9 @@
-<div *ngIf="project" class="project-info-container" (click)="visitLink()">
+<a
+  *ngIf="project"
+  href="{{ project.project_link }}"
+  target="_blank"
+  class="project-info-container"
+>
   <div class="project-info-data">
     <div class="project-info-title">{{ project.name }}</div>
     <div class="project-info-description">
@@ -6,17 +11,20 @@
     </div>
     <div class="project-info-languages">
       <app-language-info
-      *ngFor="let languageInfo of project.languages"
-      [languageInfo]="languageInfo"
-    ></app-language-info>
+        *ngFor="let languageInfo of project.languages"
+        [languageInfo]="languageInfo"
+      ></app-language-info>
     </div>
   </div>
-  <img
-    class="project-info-demo"
-    src="{{ project.img_src }}"
-    width="{{setWidth()}}"
-    height="200"
-    alt=""
-    srcset=""
-  />
-</div>
+  <div class="project-info-images">
+    <img
+      *ngFor="let img of project.images"
+      class="project-info-demo"
+      src="{{ img }}"
+      width="{{ setWidth() }}"
+      height="200"
+      alt=""
+      srcset=""
+    />
+  </div>
+</a>
