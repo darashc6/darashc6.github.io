@@ -1,5 +1,6 @@
 <nav class="navbar">
   <ul class="navbar-items">
+    <ic-icon class="close-navbar-btn" [icon]="'icon_close'" (click)="toggleNavigationBar()"></ic-icon>
     <li class="navbar-item" (click)="goToSection('skillset-section')">
       Skillset
     </li>
@@ -15,4 +16,5 @@
     <div></div>
     <div></div>
   </div>
+  <div class="navbar-background"></div>
 </nav>

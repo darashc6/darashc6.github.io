@@ -14,6 +14,7 @@ export class NavigationBarComponent implements OnInit {
 
   goToSection(section_name: string) {
     document.querySelector('.navbar-items')?.classList.toggle('open');
+    document.querySelector('.navbar-background')?.classList.toggle('navbar-open');
     document.getElementById(section_name)?.scrollIntoView({
       behavior: "smooth"
     });
@@ -21,5 +22,6 @@ export class NavigationBarComponent implements OnInit {
 
   toggleNavigationBar() {
     document.querySelector('.navbar-items')?.classList.toggle('open');
+    document.querySelector('.navbar-background')?.classList.toggle('navbar-open');
   }
 }

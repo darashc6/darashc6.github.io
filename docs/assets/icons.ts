@@ -14,6 +14,7 @@ import kotlin from "@iconify/icons-vscode-icons/file-type-kotlin";
 import flutter from "@iconify/icons-vscode-icons/file-type-flutter";
 import mongodb from "@iconify/icons-vscode-icons/file-type-mongo";
 import firebase from "@iconify/icons-vscode-icons/file-type-firebase";
+import close from "@iconify/icons-mdi/arrow-collapse-left";
 
 export const appIcons = {
     'icon_twitter': twitter,
@@ -32,4 +33,5 @@ export const appIcons = {
     'icon_flutter': flutter,
     'icon_mongodb': mongodb,
     'icon_firebase': firebase,
+    'icon_close': close
 }
